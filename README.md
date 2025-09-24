@@ -9,7 +9,7 @@
 - Ronald Uthurralt
 
 ### Descripción del Proyecto
-Este trabajo práctico explora en profundidad los clasificadores bayesianos, con un enfoque en QDA (Análisis Discriminante Cuadrático). Partiendo de la base teórica de la clasificación bayesiana, se implementan diferentes versiones del modelo QDA con el fin de optimizar su rendimiento computacional.
+En este trabajo práctico exploramos la optimización computacional del clasificador bayesiano QDA (Análisis Discriminante Cuadrático). Partiendo de una implementación base del modelo y una clase de Benchmark provistas, nuestro desarrollo se enfoca en implementar y evaluar distintas técnicas para mejorar su rendimiento. El análisis se centra en dos áreas principales: la optimización sobre la predicción, donde se busca acelerar los cálculos mediante la vectorización y el uso de tensores para procesar observaciones en bloque; y la optimización sobre el entrenamiento, donde se aborda el cuello de botella de la inversión matricial a través de la descomposición de Cholesky, un método numéricamente más estable y eficiente.
 
 ### Puntos completados
 1, 2, 3, 4, 8 
